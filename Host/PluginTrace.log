@@ -1,0 +1,75 @@
+iisexpress.exe Warning: 0 : 02/23/2016 14:38:10 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:38:10 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:38:10 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:38:10 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:41:20 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ AuthorizationCodeStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:41:20 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ TokenHandleStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:41:20 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ ConsentStore not configured - falling back to InMemory
+iisexpress.exe Warning: 0 : 02/23/2016 14:41:20 -07:00 [Warning] (IdentityServer3.Core.Configuration.IdentityServerServiceFactory)
+ RefreshTokenStore not configured - falling back to InMemory
+iisexpress.exe Information: 0 : 02/23/2016 14:41:51 -07:00 [Information] (IdSrvPlugin.IdSrvPluginController)
+ Processing Torch sign in request
+iisexpress.exe Error: 0 : 02/23/2016 14:41:52 -07:00 [Error] (IdSrvPlugin.Configuration.Hosting.LogProviderExceptionLogger)
+ Unhandled exception
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer3.Core.Extensions.PrincipalExtensions.GetSubjectId(IIdentity identity) in c:\local\identity\server3\Core\source\Core\Extensions\PrincipalExtensions.cs:line 92
+   at IdentityServer3.Core.Extensions.PrincipalExtensions.GetSubjectId(IPrincipal principal) in c:\local\identity\server3\Core\source\Core\Extensions\PrincipalExtensions.cs:line 77
+   at IdSrvPlugin.IdSrvPluginController.<Get>d__4.MoveNext() in C:\Temp\IdSrvPlugin\IdSrvPlugin\IdSrvPluginController.cs:line 54
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__1.MoveNext()
