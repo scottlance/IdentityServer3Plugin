@@ -1,9 +1,3 @@
-﻿using System;
-using System.ComponentModel;
-using System.Threading.Tasks;
-using System.Web.Http;
-using IdentityServer3.Core;
-using IdentityServer3.Core.Extensions;
 /*
  * Copyright 2015 Dominick Baier, Brock Allen
  *
@@ -19,7 +13,13 @@ using IdentityServer3.Core.Extensions;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+ 
+using System;
+using System.ComponentModel;
+using System.Threading.Tasks;
+using System.Web.Http;
+using IdentityServer3.Core;
+using IdentityServer3.Core.Extensions;
 using IdentityServer3.Core.Logging;
 using IdSrvPlugin.Configuration;
 using IdSrvPlugin.Configuration.Hosting;
