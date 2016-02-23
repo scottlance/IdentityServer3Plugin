@@ -50,3 +50,7 @@ private void ConfigurePlugins(IAppBuilder pluginApp, IdentityServerOptions optio
     pluginApp.UsePlugin(pluginOptions);
 }
 ```
+
+The Dashboard can then hit the endpoint for the plugin, which in this case is /plugin, so the link would be:
+
+http://localhost:44333/core/plugin
